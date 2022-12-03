@@ -2,7 +2,6 @@
 create or replace PACKAGE MANAGE_UNITS IS
 
 PROCEDURE ADD_UNITS(IN_UNIT_ID NUMBER, 
-                    IN_TENANT_ID NUMBER,
                     IN_OWNER_ID NUMBER,
                     IN_MANAGER_ID NUMBER,
                     IN_UNIT_RENT NUMBER,
